@@ -132,6 +132,9 @@ body {
   height: 100px;
 }
 
+.logo-navbar a {
+  text-decoration: none;
+}
 .header {
   background-color: #F7F7F7;
   color: #fff;
