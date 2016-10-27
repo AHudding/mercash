@@ -1,0 +1,252 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+html {
+  background-color: #F7F7F7;
+}
+
+body {
+  font-family: "Raleway", "Open Sans","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;
+  font-weight:lighter;
+}
+
+.contactheader {
+  background-color: #fff;
+  height: 80px;
+  width: 100%;
+  color: #005ED0;
+  font-size: 20px;
+  padding-left: 40px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.contactheader img{
+  height: 20px;
+}
+
+.contactheader a{
+  text-decoration: none;
+  color: #005ED0;
+}
+
+.main {
+  display: flex;
+}
+
+.topheader {
+    width: 100%;
+    background-color: #fff;
+    color: #005ED0;
+    position: fixed;
+    top: 0;
+}
+
+.topheader ul {
+  float: right;
+}
+
+.topheader li {
+  display: inline-block;
+  margin-left: 100px;
+  vertical-align: middle;
+}
+
+.topheader li a {
+  text-decoration: none;
+  color: #545454;
+}
+
+.topheader li a:hover {
+  text-decoration: none;
+  color: #005ED0;
+}
+
+.angela-blue{
+  display: inline-block;
+  width: 35px;
+  height: 30px;
+  background-color: #005ED0;
+  color: #fff;
+  vertical-align: center;
+  font-size: 18px;
+  text-align: center;
+  margin: -1px;
+  font-family: 'Lato', sans-serif;
+}
+
+.angela-orange{
+  display: inline-block;
+  width: 35px;
+  height: 30px;
+  background-color: #FE6407;
+  color: #fff;
+  vertical-align: center;
+  font-size: 18px;
+  text-align: center;
+  margin: -1px;
+  font-family: 'Lato', sans-serif;
+}
+
+.angela-orange-sm{
+  display: inline-block;
+  width: 35px;
+  height: 1px;
+  border-top: 3px solid #FE6407;
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  margin: 2px -1px -1px -1px;
+  font-family: 'Lato', sans-serif;
+}
+
+.logos {
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px 0px 0px 20px;
+}
+
+.navbar {
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px 0px 0px 20px;
+}
+
+.logo-navbar {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+.header {
+  background-color: #F7F7F7;
+  color: #fff;
+  text-align: center;
+}
+
+.header h1{
+  font-size: 70px;
+}
+
+.welcome {
+  margin-top: 70px;
+  background-color: rgba(84, 112, 150, 0.6);
+  height: 100%;
+  text-align: center;
+}
+
+.picture {
+  background-image: url(http://res.cloudinary.com/angela2389/image/upload/e_grayscale/v1476881246/Hermanus_1_gddljo.jpg);
+  background-size: cover;
+  height: 650px;
+  margin: 0 auto;
+}
+
+.welcome h2 {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 150px;
+}
+
+.know-more {
+  border-radius: 25px;
+  width: 200px;
+  height: 30px;
+  background-color: #FE7F1F;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.know-more a {
+  color: #fff;
+}
+
+.know-more:hover{
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #FE7F1F;
+  text-decoration: none;
+}
+
+.hire {
+  background-color: #F7F7F7;
+  text-align: center;
+  flex-grow: 2;
+}
+
+.hire h1 {
+  color: #FC992B;
+  font-size: 100px;
+}
+
+.me {
+  background-color: #F7F7F7;
+  text-align: center;
+  flex-grow: 2;
+}
+
+.me h1 {
+  font-size: 100px;
+}
+
+.me img {
+  width: 50px;
+}
+
+.experience {
+  background-color: #fff;
+  flex-grow: 2;
+}
+
+.experience h1 {
+  color: #FE7F1F;
+}
+
+#jobs {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.education {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.call-me {
+  border: 1px solid #fff;
+  border-radius: 20px 0px 0px 0px;
+  height: 65px;
+  width: 280px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: #FE7F1F;
+  color: #fff;
+  padding-left: 6px;
+}
+
+.call-me a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.call-me img {
+  width: 20px;
+}
+
+#notice {
+  font-size: 30px;
+}
